@@ -1,0 +1,9 @@
+Algoritmo AreaC�rculo
+	Definir area, perimetro, radio Como Real
+	escribir "Ingrese el radio del c�rculo"
+	leer radio
+	area=PI*radio^2
+	escribir "El area del c�rculo es ", area
+	perimetro=2*PI*radio
+	escribir "El per�metro del c�rculo es ", perimetro
+FinAlgoritmo
