@@ -1,0 +1,15 @@
+Algoritmo UsoFunciones
+	definir num1, seno, coseno, tangente, raizC, logaritmoNatural Como Real
+	escribir "Ingrese un n�mero"
+	leer num1
+	seno=sen(num1)
+	escribir "El seno es ", seno
+	coseno=cos(num1)
+	escribir "El coseno es ", coseno
+	tangente=tan(num1)
+	escribir "El tangente es ", tangente
+	raizC=raiz(num1)
+	escribir "La raiz cuadrada es ", raizC
+	logaritmoNatural=ln(num1)
+	escribir "El logaritmo natural es ", logaritmoNatural
+FinAlgoritmo
