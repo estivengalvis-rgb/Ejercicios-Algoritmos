@@ -1,0 +1,11 @@
+Algoritmo SalarioPensi�n
+	definir Salario, APensi�n, ASalud, DineroF Como Real
+	escribir "Ingrese su salario"
+	leer Salario
+	APensi�n=Salario*0.04
+	escribir "Su aporte de pensi�n es ", APensi�n
+	ASalud=Salario*0.04
+	escribir "Su aporte de salud es ", ASalud
+	DineroF=Salario-APensi�n-ASalud
+	escribir "El dinero que tiene ahora es ", DineroF
+FinAlgoritmo
