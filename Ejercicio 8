@@ -1,0 +1,11 @@
+Algoritmo AreaRect�ngulo
+	definir base, altura, �rea, per�metro Como Real
+	escribir "Ingrese la base del rect�ngulo"
+	leer base
+	escribir "Ingrese la altura del rect�ngulo"
+	leer altura
+	�rea=base*altura
+	escribir "El �rea del rect�ngulo es ", �rea
+	per�metro=(2*base)+(2*altura)
+	escribir "El per�metro del rect�ngulo es ", per�metro
+FinAlgoritmo
