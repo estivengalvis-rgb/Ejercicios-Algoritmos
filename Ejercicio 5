@@ -1,0 +1,9 @@
+Algoritmo SalarioEmpleado
+	Definir NHoras, VHoras, Salario como real
+	escribir "Ingrese sus horas trabajadas"
+	leer NHoras
+	escribir "Ingrese el valor de cada hora"
+	leer VHoras
+	Salario=NHoras*VHoras
+	escribir "Su salario es ", Salario
+FinAlgoritmo
