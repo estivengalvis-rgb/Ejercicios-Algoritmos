@@ -1,0 +1,16 @@
+Algoritmo ValorIntereses
+	definir valorInteres, CantidadD, PorcentajeFinal, Descuento7, CantidadT, Dias, PorcentajeInteres Como Real
+	escribir "Ingrese el dinero que quiere invertir"
+	leer CantidadD
+	escribir "Ingrese el porcentaje de interes"
+	leer PorcentajeInteres
+	escribir "Ingrese los d�as"
+	leer Dias
+	PorcentajeFinal=PorcentajeInteres/100
+	ValorInteres=(CantidadD*PorcentajeFinal*Dias)/360
+	escribir "Los valores de los intereses son de ", ValorInteres
+	Descuento7=ValorInteres*0.07
+	escribir "El descuento del 7% es ", Descuento7
+	CantidadT=CantidadD+ValorInteres-Descuento7
+	escribir "La cantidad de dinero que tiene ahora es ", CantidadT
+FinAlgoritmo
